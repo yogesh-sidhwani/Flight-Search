@@ -1,0 +1,67 @@
+<!doctype html>
+
+	<html lang="en">
+	<head>
+
+	<title>Flight Search</title>
+	<meta charset="utf-8">
+	<meta http-equiv='X-UA-Compatible' content='IE=edge'>
+	<meta name='application-name' content='Flight Search'>
+	<meta name="description" content="Thoughtworks Flight search">
+	<meta name="author" content="Yogesh Sidhwani">
+	<meta name="theme-color" content="#36bdfa">
+	<meta name='viewport' content='width=device-width, initial-scale=1'>
+
+	<link rel="stylesheet" href="css/styles.css">
+
+	</head>
+	<body>
+		<div class="container">
+				<header>
+					<h2>FLIGHT SEARCH</h2>
+				</header>
+				<main>
+					<aside class="leftContainer">
+						<div class="flightSearchForm">
+							<div class="flightTripTabs">
+								<ul>
+									<li class="active" id="oneWay">
+										<a>One way</a>
+									</li>
+									<li id="roundTrip">
+										<a>Round trip </a>
+									</li>
+								</ul>
+							</div>
+							<form>
+								<input id="originCity" type="text" placeholder="Enter origin city" />
+								<input id="destinationCity" type="text" placeholder="Enter destination city" />
+								<input type="date" id="departureDate" />
+								<input type="date" id="returnDateField" />
+								<select id="passengers">
+									<option>1</option>
+									<option>2</option>
+									<option>3</option>
+								</select>
+								<p id="error" class="errorText">Please fill the required fields</p>
+								<button type="button" onclick="searchFunction()">Search</button>
+							</form>
+						</div>
+						<div class="slidecontainer">
+							<p>Refine Flight search</p>
+							<labe>0</labe>
+					  		<input type="range" min="1" step="200" max="20000" value="10000" class="slider" id="priceFilter" oninput="priceFilterFunction(this.value)">
+					  		<labe>20,000</labe>
+						</div>
+					</aside>
+					<section class="rightContainer">
+						<div class="searchResults" id="searchResults">
+							<!-- Flight List renderd here -->
+						</div>
+					</section>
+				</main>
+
+		</div>
+		<script type="text/javascript" src="index.js"></script>
+	</body>
+</html>

@@ -1,0 +1,104 @@
+{
+	"data": [
+	 {
+		"originCity": "pune",
+		"originCityCode": "PUN",
+		"destinationCity": "delhi",
+		"destinationCityCode": "DEL",
+		"departureDate": "2018-09-28",
+		"returnDate": "2018-09-29",
+		"price": "9500",
+		"flightLogo": "./img/flightLogo.PNG",
+		"departureFlight": {
+		 		"flightNumber": "A101",
+		 		"departureTime": "10:00 AM",
+		 		"arrivalTime": "02:00 PM"
+		 	},
+		 	"returnFLight": {
+		 		"flightNumber": "A104",
+		 		"departureTime": "7:00 PM",
+		 		"arrivalTime": "11:00 PM"
+		 	}
+	 },
+	 {
+		"originCity": "pune",
+		"originCityCode": "PUN",
+		"destinationCity": "delhi",
+		"destinationCityCode": "DEL",
+		"departureDate": "2018-09-28",
+		"returnDate": "2018-09-29",
+		"price": "10500",
+		"flightLogo": "./img/flightLogo.PNG",
+		"departureFlight": {
+		 		"flightNumber": "A101",
+		 		"departureTime": "10:00 AM",
+		 		"arrivalTime": "02:00 PM"
+		 	},
+		 	"returnFLight": {
+		 		"flightNumber": "A104",
+		 		"departureTime": "7:00 PM",
+		 		"arrivalTime": "11:00 PM"
+		 	}
+	 },
+	 {
+		"originCity": "pune",
+		"originCityCode": "PUN",
+		"destinationCity": "delhi",
+		"destinationCityCode": "DEL",
+		"departureDate": "2018-09-28",
+		"returnDate": "2018-09-29",
+		"price": "12500",
+		"flightLogo": "./img/flightLogo.PNG",
+		"departureFlight": {
+		 		"flightNumber": "A101",
+		 		"departureTime": "10:00 AM",
+		 		"arrivalTime": "02:00 PM"
+		 	},
+		 	"returnFLight": {
+		 		"flightNumber": "A104",
+		 		"departureTime": "7:00 PM",
+		 		"arrivalTime": "11:00 PM"
+		 	}
+	 },
+	 {
+		"originCity": "pune",
+		"originCityCode": "PUN",
+		"destinationCity": "delhi",
+		"destinationCityCode": "DEL",
+		"departureDate": "2018-09-28",
+		"returnDate": "2018-09-29",
+		"price": "13302",
+		"flightLogo": "./img/flightLogo.PNG",
+		"departureFlight": {
+		 		"flightNumber": "A101",
+		 		"departureTime": "10:00 AM",
+		 		"arrivalTime": "02:00 PM"
+		 	},
+		 	"returnFLight": {
+		 		"flightNumber": "A104",
+		 		"departureTime": "7:00 PM",
+		 		"arrivalTime": "11:00 PM"
+		 	}
+	 },
+	 {
+		"originCity": "pune",
+		"originCityCode": "PUN",
+		"destinationCity": "delhi",
+		"destinationCityCode": "DEL",
+		"departureDate": "2018-09-28",
+		"returnDate": "2018-09-29",
+		"price": "16500",
+		"flightLogo": "./img/flightLogo.PNG",
+		"departureFlight": {
+		 		"flightNumber": "A101",
+		 		"departureTime": "10:00 AM",
+		 		"arrivalTime": "02:00 PM"
+		 	},
+		 	"returnFLight": {
+		 		"flightNumber": "A104",
+		 		"departureTime": "7:00 PM",
+		 		"arrivalTime": "11:00 PM"
+		 	}
+	 }
+	]
+}

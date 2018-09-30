@@ -1,0 +1,173 @@
+html, body {
+	height: 100%;
+}
+.container{
+	min-height: 100%;
+	background-image: url('../img/background.jpeg');
+	color: #ffffff;
+	display: grid;
+	grid-template-rows: 50px auto;
+	grid-column-gap: 15px;
+	align-items: start;
+	grid-template-areas: 
+    "header"
+    "main"
+}
+main {
+	grid-area: main;
+	display: inline-grid;
+	grid-template-columns: 40% auto;
+	grid-column-gap: 15px;
+}
+header {
+	grid-area: header;
+	justify-self: center;
+}
+
+/* Flight search form START */
+form{
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    padding: 5px 0;
+}
+form input, form select {
+	width: 99%;
+    padding: 5px;
+    margin: 5px auto;
+}
+form input {
+	width: 96%;
+}
+button {
+	width: 150px;
+    margin: 10px auto;
+    padding: 5px;
+    border-radius: 100px;
+    background-color: #36bdfa;
+    color: #fff;
+    border: none;
+}
+.flightSearchForm {
+	margin-bottom: 20px;
+}
+.errorText {
+	display: none;
+	color: red;
+	text-align: center;
+    margin-top: 5px;
+}
+/* Flight search form END */
+
+/* Flight List view START */
+.flightRoundTripDetails {
+	display: grid;
+	grid-template-columns: 50% 50%;
+}
+.searchResults article {
+	display: grid;
+	grid-template-columns: 70% 30%;
+	margin: 10px auto;
+    width: 95%;
+    border: 1px solid;
+}
+.oneWayDetailsContainer, .returnDetailsContainer {
+	padding: 5px;
+}
+.flightDetailsContainer h3{
+	margin-bottom: 0;
+    padding: 5px;
+}
+.flightTripTabs ul {
+    display: grid;
+    width: 70%;
+    grid-template-columns: 50% 50%;
+    margin: 10px auto 0;
+    padding: 0;
+    background-color: #36bdfa;
+
+}
+.flightTripTabs ul li {
+	list-style-type: none;
+	padding: 5px;
+	cursor: pointer;
+	font-size: 18px;
+	color: #647d8c;
+	justify-self: center;
+}
+.flightTripTabs ul li.active {
+	color: #ffffff;
+}
+.flightTripTabs ul li a:hover {
+	font-weight: bold;
+}
+.flightLogoContainer {
+	display: grid;
+	align-self: center;
+    margin-right: 10px;
+}
+.flightLogoContainer img {
+	width: 100%;
+}
+.bookFlightButton {
+	margin-top: 20px;
+    width: 150px;
+    padding: 5px;
+    font-size: 14px;
+    border-color: lightblue;
+}
+/* Flight List view END */
+
+/* Price range slider START */
+.slidecontainer {
+    width: 90%;
+    margin: 0 20px;
+}
+.slidecontainer p {
+	text-align: center;
+}
+.slider {
+    -webkit-appearance: none;
+    width: 80%;
+    height: 15px;
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+}
+
+.slider:hover {
+    opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 15px;
+    height: 15px;
+    background: #36bdfa;
+    cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+    width: 15px;
+    height: 15px;
+    background: #36bdfa;
+    cursor: pointer;
+}
+/* Price range slider END */
+
+/* media query for mobile and Tab START */
+@media screen and (max-width: 768px) {
+	main {
+		grid-template-columns: 100%;
+	}
+	.searchResults article {
+		grid-template-columns: 100%;
+	}
+	.flightLogoContainer img {
+		display: none;
+	}
+}
+/* media query for mobile and Tab END */
