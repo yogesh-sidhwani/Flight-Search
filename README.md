@@ -3,7 +3,7 @@ flight search with core JS
 
 ##Pre-Requisites
 
-*Install node.
+...*Install node.
 *Install NPM.
 *Install Http-Server
 
