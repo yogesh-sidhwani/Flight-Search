@@ -1,6 +1,6 @@
 ## Flight-search widget with core JS.
 
-## Pre-Requisites
+## Prerequisites
 
 <ul>
 <li>Install Node.</li>
@@ -12,7 +12,7 @@
 
  After cloning the repo and following the pre-requisites run the server on the repo using <i>'http-server'<i> command.
  
- **BEFORE YOU INSTALL:** please read the [Pre-Requisites](#Pre-Requisites)
+ **BEFORE YOU INSTALL:** please read the [Prerequisites](#Prerequisites)
 ```bash
 npm install -g http-server
 ```
