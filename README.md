@@ -11,5 +11,16 @@
 # Run the server
 
  After cloning the repo and following the pre-requisites run the server on the repo using <i>'http-server'<i> command.
+ 
+ **BEFORE YOU INSTALL:** please read the [prerequisites](#prerequisites)
+```bash
+npm install -g http-server
+```
+
+## Usage
+
+```bash
+http-server
+```
 
 
