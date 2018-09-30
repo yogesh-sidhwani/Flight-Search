@@ -5,7 +5,7 @@
 <ul>
 <li>Install Node.</li>
 <li>Install NPM.</li>
-<li>Install 'Http-Server'.</li>
+<li>Install 'http-server'.</li>
 </ul>
 
 # Run the server
