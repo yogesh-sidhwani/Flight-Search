@@ -1,4 +1,5 @@
 ## Flight-search widget with core JS.
+Responsive Flight widget with core Javascript.
 
 ## Prerequisites
 
