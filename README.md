@@ -9,10 +9,6 @@ Responsive Flight widget with core Javascript.
 <li>Install 'http-server'.</li>
 </ul>
 
-## Run the server
-
- After cloning the repo and following the pre-requisites run the server on the repo using <i>'http-server'<i> command.
- 
  **BEFORE YOU INSTALL:** please read the [Prerequisites](#Prerequisites)
 ```bash
 npm install -g http-server
@@ -24,4 +20,7 @@ npm install -g http-server
 http-server
 ```
 
+## Run the server
 
+ After cloning the repo and following the pre-requisites run the server on the cloned repo using <i>'http-server'<i> command.
+ 
