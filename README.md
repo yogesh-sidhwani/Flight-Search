@@ -22,5 +22,5 @@ http-server
 
 ## Run the server
 
- After cloning the repo and following the pre-requisites run the server on the cloned repo using <i>'http-server'<i> command.
+ After cloning/downloading the repo and following the pre-requisites run the server on the cloned repo using <i>'http-server'<i> command.
  
